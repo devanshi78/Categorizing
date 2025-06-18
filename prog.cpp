@@ -136,7 +136,7 @@ int main()
                 break;
             case 3 :
                 merge_sort(arr,0,arr.size() -1);
-                cout<<"Array sorting using merge sort"<<endl;
+                cout<<"Array sorting using merge sort";
                 break;
             case 4 :
                 int element,result;
