@@ -156,7 +156,7 @@ int main()
             case 5 :
                 cout << "Enter value to search (Binary): \n (do not enter unsorted array)";
                 cin >> element;
-                result = linear_search(arr,element);
+                result = binary_search(arr,element);
                 if (result != -1) 
                 {
                     cout << "Element at : "<<result<<endl;
