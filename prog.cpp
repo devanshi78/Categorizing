@@ -84,8 +84,8 @@ int binary_search(vector<int>& arr, int key)
         {
             end = mid -1;
         }
-        return -1;
     }
+    return -1;
 }
 
 void printarray(vector<int>& arr, int n){
